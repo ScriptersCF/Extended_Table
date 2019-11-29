@@ -4,7 +4,7 @@
         "Description": "Deep copies the provided table."
     },
     "slice": {
-        "Usage": "table.slice(tbl [, start=1, stop=#tbl, step=1]),
+        "Usage": "table.slice(tbl [, start=1, stop=#tbl, step=1])",
         "Description": "",
     }
 }
