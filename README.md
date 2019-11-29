@@ -1,13 +1,16 @@
-# Sample_Package  ![spm | sample](https://img.shields.io/badge/spm-sample-blue)
+# Sample_Package  ![spm | table](https://img.shields.io/badge/spm-sample-blue)
 A sample package repository used in the Package Manager.
 
 
 #### Usage:
 ```lua
 local require = require(game.ReplicatedStorage:WaitForChild("PackageManager").Load)
-local Sample = require("sample")
+local table = require("table")
 
-Sample.Print("Hello, world!")
+local tbl = {1, 2, 3, ["A"] = "B"}
+
+local copy = table.deepcopy(tbl)
+print(copy == tbl)
 ```
 
-` > Hello, world!`
+` > false`
