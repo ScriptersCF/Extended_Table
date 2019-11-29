@@ -1,10 +1,6 @@
 {
-    "Print": {
-        "Usage": "sample.Print(msg)",
-        "Description": "Prints the provided message."
+    "deepcopy": {
+        "Usage": "table.deepcopy(tbl)",
+        "Description": "Deep copies the provided table."
     },
-    "Warn": {
-        "Usage": "sample.Warn(msg)",
-        "Description": "Warns the provided message."
-    }
 }
