@@ -1,0 +1,10 @@
+{
+    "Print": {
+        "Usage": "sample.Print(msg)",
+        "Description": "Prints the provided message."
+    },
+    "Warn": {
+        "Usage": "sample.Warn(msg)",
+        "Description": "Warns the provided message."
+    }
+}
