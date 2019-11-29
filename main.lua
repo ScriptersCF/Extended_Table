@@ -1,14 +1,14 @@
 local Funcs = script.Parent:WaitForChild("funcs")
 
 local function GetLib()
-	local String = {}
-	for i, v in pairs(string) do
-		String[i] = v
+	local Table = {}
+	for i, v in pairs(table) do
+		Table[i] = v
 	end
 	for i, v in pairs(Funcs:GetChildren()) do
-		String[v.Name] = require(v)
+		Table[v.Name] = require(v)
 	end
-	return String
+	return Table
 end
 
 return GetLib()
